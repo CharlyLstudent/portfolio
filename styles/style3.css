@@ -1,0 +1,132 @@
+*{
+    background-color: #06113C;
+    text-decoration: none;
+    list-style: none;  
+
+  
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.name p{
+    font-family: 'play', sans-serif ;
+    color: #F5F5F5;
+    font-size: 40px;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.logo{
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+
+
+span{
+    color: #FAB005;
+    background-color:rgba(255,255,255,0);
+}
+
+.navClick ul li a{
+    color: #F5F5F5;
+    font-size: 20px;  
+}
+.navClick ul li a:hover{
+    color: #FAB005;
+}
+
+.navClick ul li a:active{
+    color: #FAB005;
+}
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: #F5F5F5;
+}
+
+.name1{
+    background-color: rgba(0, 0, 0, 0) !important ;
+}
+
+.textOne{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#F5F5F5;
+    font-size: 25px;
+    text-decoration-color: #F5F5F5;
+}
+
+.cv{
+    margin-left: 5%;
+}
+
+.imgAstro{
+    margin-right: 15%;
+}
+
+.footerPage{
+    background-color: #07255E;
+    color: #F5F5F5;
+    gap: 10%;
+    font-size: 17px;
+
+}
+
+.footerPage a{
+    background-color: rgba(0,0, 0, 0);
+    text-decoration: none;
+    font-family: 'play', sans-serif ;
+    color: #F5F5F5;
+}
+
+.iconFooter{
+    background-color: #07255E;
+    
+}
+
+
+.circle{
+
+    background-color: rgb(14, 21, 238);
+    height: 400px;
+    width: 2000px;
+    position: absolute;
+    top: -290px;
+    left: -1150px;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: inset -10px -7px 15px 10px rgb(8, 21, 201), 10px 7px 20px 15px rgb(8, 21, 201) ;
+    
+}
+
+.circle2{
+    background-color: rgb(225, 0, 149);
+    opacity: 70%;
+    height: 400px;
+    width: 2400px;
+    position: absolute;
+    top: -235px;
+    left: -1550px;
+    border-radius: 50%;
+    box-shadow: inset 10px 7px 15px 5px rgb(248, 0, 149), 10px 7px 25px 10px rgb(238, 0, 150);
+    
+}
+
+
+#cvImage{
+    animation: moveLeft 1s ease-in-out;
+    animation-delay: 10ms;
+}
+
+@keyframes moveLeft{
+    0% {
+        transform: translateX(-150px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}

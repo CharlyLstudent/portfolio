@@ -1,0 +1,153 @@
+*{
+    background-color: #06113C;
+    text-decoration: none;
+    list-style: none;
+}
+.fullPage{
+    background-color: #06113C;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    transform: rotate(40deg);
+    margin-bottom: 7%;
+    z-index: 3;
+}
+
+.name, .study{
+    font-family: 'Play', sans-serif;
+    color: #F5F5F5;
+    font-weight: bold;
+    margin-top: 2%;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+span{
+   color: #FAB005;
+   background-color:rgba(255,255,255,0);
+}
+
+h1{
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+h2{
+    display:flex;
+    justify-content: flex-end;
+}
+
+.headerPage{
+
+    display: flex;
+    flex-direction: row;
+    gap: 5%
+}
+
+.text{
+    text-decoration: none;
+    font-size:50px;
+    position: relative;
+    bottom: 5em;
+    font-family: "play", sans-serif;
+    font-weight: bold;
+    color: #F5F5F5;
+    margin-left: 2.5%; 
+    background-color:rgba(255,255,255,0);
+}
+
+#titleInterest{
+    margin-right: 1.5%;
+}
+
+.text2{
+    text-decoration: none;
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #07255E;
+}
+
+.footerPage{
+    background-color: #07255E;
+}
+
+.name{
+  
+    font-size: 20px;
+
+}
+
+.social{
+    background-color: #07255E;
+    padding: 1%;
+    
+    
+}
+
+img{
+    background-color: #07255E;
+}
+
+.circle{
+
+    background-color: rgb(14, 21, 238);
+    height: 400px;
+    width: 2000px;
+    position: absolute;
+    top: -290px;
+    left: -1150px;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: inset -10px -7px 15px 10px rgb(8, 21, 201), 10px 7px 20px 15px rgb(8, 21, 201) ;
+    
+}
+
+.circle2{
+    background-color: rgb(225, 0, 149);
+    opacity: 70%;
+    height: 400px;
+    width: 2400px;
+    position: absolute;
+    top: -235px;
+    left: -1550px;
+    border-radius: 50%;
+    box-shadow: inset 10px 7px 15px 5px rgb(248, 0, 149), 10px 7px 25px 10px rgb(238, 0, 150);
+    
+}
+
+#fusee{
+    animation: moveDown 1s ease-in-out;
+    animation-delay: 10ms;
+}
+
+#astronaute{
+    animation: moveDownTwo 1.50s ease-in-out;
+    animation-delay: 10ms;
+}
+
+#planets{
+    animation: moveDownTwo 2s ease-in-out;
+    animation-delay: 10ms;
+}
+
+
+@keyframes moveDown{
+    0% {
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes moveDownTwo{
+    0% {
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
