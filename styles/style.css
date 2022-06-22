@@ -45,6 +45,44 @@ h2{
     flex-direction: row;
     gap: 5%
 }
+.block1 a{
+    display:block;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-family: 'Play', sans-serif;
+    font-size: 50px;
+
+}
+
+.fusee{
+    background-image: url("/images/fusee.png");
+    background-size: cover;
+    height: 700px;
+}
+
+.astronaute{
+    background-image:  url("/images/astro.png");
+    background-size: cover;
+    height: 800px;
+}
+
+.planets{
+    background-image:  url("/images/planets.png");
+    background-size: cover;
+    height: 700px;
+}
+
+
+.theme{
+    text-align: center;
+    background-color:rgba(255,255,255,0);
+
+}
+
+.block1 a:hover{
+    color: #FAB005;
+}
+
 
 .text{
     text-decoration: none;
