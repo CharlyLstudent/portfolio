@@ -55,19 +55,19 @@ h2{
 }
 
 .fusee{
-    background-image: url("./images/fusee.png");
+    background-image: url("images/fusee.png");
     background-size: cover;
     height: 700px;
 }
 
 .astronaute{
-    background-image:  url("./images/astro.png");
+    background-image:  url("images/astro.png");
     background-size: cover;
     height: 800px;
 }
 
 .planets{
-    background-image:  url("./images/planets.png");
+    background-image:  url("images/planets.png");
     background-size: cover;
     height: 700px;
 }
